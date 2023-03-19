@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="multichoice-form.css" />
+    <title>Multi-choice Form</title>
+  </head>
+  <body class="themes lightTheme">
+    <h1 class="heading">Multi-choice Forms</h1>
+    <div class="form-container">
+      <div class="form form1">Login Form</div>
+      <div class="form form2">Contact Form</div>
+      <div class="form form3">Feedback Form</div>
+      <div class="form form4">form4</div>
+      <div class="form theme">Change Theme</div>
+      <div class="form form5">form5</div>
+      <div class="form form6">form6</div>
+      <div class="form form7">form7</div>
+      <div class="form form8">form8</div>
+    </div>
+  </body>
+  <script>
+    document.querySelector(".theme").addEventListener("click", () => {
+      const themeLocation = document.querySelector(".themes");
+      const checkTheme = themeLocation.classList.contains("lightTheme");
+      if (checkTheme) {
+        themeLocation.classList.remove("lightTheme");
+        themeLocation.classList.add("darkTheme");
+        document.querySelector(".heading").style.color = "#FFF";
+      } else {
+        themeLocation.classList.remove("darkTheme");
+        themeLocation.classList.add("lightTheme");
+        document.querySelector(".heading").style.color = "#000";
+      }
+    });
+
+    document.querySelector(".form1").addEventListener("click", () => {
+      location = "login-form.html";
+    });
+
+    document.querySelector(".form2").addEventListener("click", () => {
+      location = "contact-form.html";
+    });
+
+    document.querySelector(".form3").addEventListener("click", () => {
+      location = "feedback-form.html";
+    });
+  </script>
+</html>
