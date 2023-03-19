@@ -1,0 +1,11 @@
+#home {
+    position: absolute;
+    top: 10px;
+    left: 700px;
+    width: 7rem;
+    height: 3rem;
+    background-color: rgb(2, 60, 27);
+    color: #FFF;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
