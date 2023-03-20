@@ -31,7 +31,7 @@ h1 {
     word-spacing: 4px;
     width: 200px;
     height: 200px;
-    background-color: rgb(128, 153, 173);
+    background-color: rgb(104, 149, 99);
     color: #FFF;
     margin-bottom: 1rem;
     border: 2px solid rgb(246, 246, 242);
@@ -39,7 +39,7 @@ h1 {
 }
 
 .form:hover {
-    background-color: rgb(165, 152, 165)
+    background-color: rgb(57, 84, 51)
 }
 
 .form1 {
@@ -85,9 +85,9 @@ h1 {
 }
 
 .theme {
-    background-color: rgb(216, 143, 157);
+    background-color: rgb(143, 122, 164);
 }
 
 .theme:hover {
-    background-color: rgb(222, 102, 126);
+    background-color: rebeccapurple;
 }
