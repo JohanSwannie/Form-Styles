@@ -7,10 +7,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    word-spacing: 1rem;
+    text-shadow: 2px 2px 2px #FFF;
 }
 
 h1 {
     text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
 }
 
 .form {
@@ -79,4 +82,12 @@ h1 {
 
 .lightTheme {
     background-color: #999;
+}
+
+.theme {
+    background-color: rgb(216, 143, 157);
+}
+
+.theme:hover {
+    background-color: rgb(222, 102, 126);
 }

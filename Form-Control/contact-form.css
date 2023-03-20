@@ -10,7 +10,7 @@ body {
 h1 {
   margin: 0 0 20px;
   font-weight: 400;
-  color: #1c87c9;
+  color: #078119;
 }
 p {
   margin: 0 0 5px;
@@ -21,7 +21,7 @@ p {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #1c87c9;
+  background: #338f02;
 }
 form {
   padding: 25px;
@@ -46,7 +46,7 @@ textarea {
   width: calc(100% - 18px);
   padding: 8px;
   margin-bottom: 20px;
-  border: 1px solid #1c87c9;
+  border: 1px solid #198c07;
   outline: none;
 }
 input::placeholder {
@@ -56,13 +56,13 @@ button {
   width: 100%;
   padding: 10px;
   border: none;
-  background: #1c87c9;
+  background: #0c9a05;
   font-size: 16px;
   font-weight: 400;
   color: #fff;
 }
 button:hover {
-  background: #2371a0;
+  background: #165202;
 }
 @media (min-width: 568px) {
   .main-block {
